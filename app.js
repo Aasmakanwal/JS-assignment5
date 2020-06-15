@@ -1,42 +1,42 @@
-// ***** CHAPTER # 1 *****
-// Question 1
+// ----- CHAPTER # 1 -----
+// Task # 1
 
 // alert("Welcome!")
 
-// Question 2
+// Task 2
 
 // alert("Error! Please enter a valid password.")
 
-// Question 3
+// Task # 3
 
 // alert("Welcome to JS Land...\nHappy Coding!")
 
-// Question 4
+// Task # 4
 
 // alert("Welcome to JS Land..")
 // alert("Happy Coding!")
 
-// Question 5
+// Task # 5
 
 // alert("Hello.. I can run JS through my web browser's console")
 
 
-// ***** CHAPTER # 2 *****
-// Question 1
+//----- CHAPTER # 2 -----
+// Task # 1
 
 // var username;
 
-// Question 2
+// Task # 2
 
 // var myName = "Aasma Kanwal"
 
-// Question 3
+// Task # 3
 
 // var message;
 // message = "Hello World"
 // alert(message)
 
-// Question 4
+// Task # 4
 
 // var studentName = "Jhone Doe"
 // var studentAge = "15 years Old"
@@ -45,39 +45,39 @@
 // alert(studentAge)
 // alert(studentCourse)
 
-// Question 5
+// Task # 5
 
 // var pizza = "PIZZA\nPIZZ\nPIZ\nPI\nP"
 // alert(pizza)
 
-// Question 6
+// Task # 6
 
 // var email= "Aasmakanwal921@gmail.com"
 // alert("My email address is "+ email)
 
-// Question 7
+// Task # 7
 
 // var book = "A smarter way to learn JavaScript"
 // alert("I am trying to learn from the Book "+ book)
 
-// Question 8
+// Task # 8
 
 // document.write("Yah! I can write HTML content through JavaScript" + "<br>")
 
-// Question 8
+// Task # 8
 
 // var string = "▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬"
 // alert(string)
 // document.write(string)
 
 
-// ***** CHAPTER # 3 *****
-// Question 1
+// ----- CHAPTER # 3 -----
+// Task # 1
 
 // var age = "I am 16 years old"
 // alert(age)
 
-// Question 2
+// Task # 2
 
 // var count = 1;
 
@@ -85,43 +85,46 @@
 
 // count++;
 
-// Question 3
+// Task # 3
 
 // var birthyear = 2003
 // document.write("My birth year is " + birthyear + "<br>")
 // document.write("Data type of my declared variable is number")
 
-// Question 4
+// Task # 4
 
 // var visitorName = "Aasma kanwal";
-// var productTitle = "T-shirt";
+// var productTittle = "T-shirt";
 // var quantity = 5;
 // document.write("<b>" + visitorName + "</b> ordered <b>" + quantity + " " +
 // productTitle + " </b>(s) on XYZ Clothing store");
 
 
-// ***** CHAPTER # 4 *****
-// Question 1
+// ----- CHAPTER # 4 -----
+// Task # 1
 
 // var name , age , course
 
-// Question 2
+// Task # 2
 
 // var $name , _name , myName , Class2 , my_age    // legal variable
 // var -name , 2ndClass , my-name , alert , @ge    // illegal variables
 
-// Question 3
+// Task # 3
 
 // document.write("<h2>Rules for naming JS variables</h2>Variable names can only contain numbers, letters, $ and _. For example: $my_1stVariabl <br> Variables must begin with a letter, $ or _. For example $name, _name or name <br> Variable names are case Sensitive <br> Variable names should not be JS Keywords <br>")
 
-// ***** CHAPTER # 5 *****
-// Question 1
-// var a = 10
+// ----- CHAPTER # 5 -----
+// Task # 1
+
+// var a = 15
 // var b = 20
 // var c = a + b
 // document.write("The Sum of " + a + " and " + b + " is " + c + "<br>" )
-// Question 2
-// var a = 10
+
+// Task # 2
+
+// var a = 15
 // var b = 20
 // var c = a - b
 // document.write("The Subtraction of " + a + " and " + b + " is " + c + "<br>" )
@@ -131,17 +134,17 @@
 // var c = a * b
 // document.write("The multiplication of " + a + " and " + b + " is " + c + "<br>" )
 
-// var a = 10
+// var a = 15
 // var b = 20
 // var c = a / b
 // document.write("The division of " + a + " and " + b + " is " + c + "<br>" )
 
-// var a = 10
+// var a = 15
 // var b = 20
 // var c = a % b
 // document.write("The modulus of " + a + " and " + b + " is " + c + "<br>" )
 
-// Question 3
+// Task # 3
 
 // var i;
 // document.write("Value after variable declaration is " + i + "<br>")
@@ -165,13 +168,13 @@
 // f = h/e
 // document.write("The remainder is : " + f + "<br>")
 
-// Question 4
+// Task # 4
 
-// var ticketPrice = 600
+// var ticket-Price = 600
 // var numberOfTicket = 5
-// document.write("Total cost to buy " + numberOfTicket + " tickets to a movie is " + ticketPrice * numberOfTicket + " PKR" )
+// document.write("Total cost to buy " + numberOfTicket + " tickets to a movie is " + ticket-Price * numberOfTicket + " PKR" )
 
-// Question 5
+// Task # 5
 
 // document.write("Table of 4<br>");
 
@@ -179,7 +182,7 @@
 //             document.write("4 x " + i + " = " + (4 * i) + "<br>");
 //         }
 
-// Question 6
+// Task # 6
 
 // var tempInCelsius = 25
 // var C_to_F = (tempInCelsius *9/5) + 32 
@@ -201,7 +204,7 @@
 
 // document.write("<br>Total cost nof your order is " +totalCost+ "<br>")
 
-// Question 8
+// Task # 8
 
 // var marksObtained = 804
 
@@ -211,7 +214,7 @@
 
 // document.write("Total Marks: "+ totalMarks +"<br>Marks Obtained: " + marksObtained+ "<br> Percentage "+ percentage)
 
-// Question 9
+// Task # 9
 
 // var dollar = 10
 // var riyal = 25
@@ -221,21 +224,21 @@
 
 // document.write("<h1>Currency in PKR</h1> <br>Total Currency in PKR: " + total + "<br>")
 
-// Question 10
+// Task # 10
 
 // var number = 10
 // number = (number + 5) *10 / 2
 // document.write(number)
 
 
-// Question 11
+// Task # 11
 
 // var currentYear = 2020
 // var birthYear = 2003
 // document.write("<h1>Age Calculator</h1>")
 // document.write("Current Year: " +currentYear+ "<br>Birth Year: " +birthYear+ "<br>Your age is: " + (currentYear - birthYear))
 
-// Question 12
+// Task # 12
 
 // var radius = 20
 // var circumference = 2 * 3.142 * radius
@@ -245,10 +248,10 @@
 // document.write("Circumference of Circle: " + circumference+ "<br>")
 // document.write("Area of Circle is: " +area)
 
-// Question `13
+// Task `# 13
 
 // var snack = "Chocolate chip"
-// var currentAge = 15
+// var currentAge = 16
 // var maxAge = 65
 // var snackPerDay = 3
 // var needsnack = (maxAge - currentAge) * snackPerDay
@@ -259,8 +262,8 @@
 // document.write("Amount of snacks per day: "+snackPerDay+ "<br>")
 // document.write("You will need " + needsnack + " " + snack + "to last you untill the ripe old age of " +maxAge)
 
-// ***** CHAPTER # 6-9 *****
-// Question 1
+// ----- CHAPTER # 6-9 -----
+// Task # 1
 
 // var a = 10
 
@@ -275,7 +278,7 @@
 // document.write("Now the value of a is: " + a + "<br>")
 
 
-// Question 2
+// Task # 2
 
 // var a = 2, b = 1; 
 // var result = --a - --b + ++b + b--; 
@@ -283,24 +286,22 @@
 // document.write("b is: " + b + "<br>")
 // document.write("result is: " + result + "<br>")
 
-// Question 3
+// Task # 3
 
 // var user = prompt("Enter your name: ", "User")
 // document.write("Welcome " + user + "<br>" )
 
 
-// Question 4
+// Task # 4
 
-// question not found
-
-// Question 5
+// Task # 5
 
 // var number = parseInt(prompt("Enter number: " , "5"))
 // for (i = 1 ; i <= 10 ; i++ ) {
 //     document.write(number + " x " +i+ " = " + (number*i) + "<br>");
 // }
 
-// Question 6
+// Task # 6
 
 // var sub1 = prompt("Enter First subject name: ", "Subject 1")
 // var sub2 = prompt("Enter Second subject name: ", "Subject 2")
@@ -353,9 +354,9 @@
 
 //     document.write("</table>")
 
- // ***** CHAPTER # 9-11 *****
+ // ----- CHAPTER # 9-11 -----
 
-// Question 1
+// Task # 1
 
 
 // var city = prompt("Enter City name: ", "Karachi")
@@ -364,7 +365,7 @@
 // document.write("Welcome to the city of lights")
 // }
 
-// Question 2
+// Task # 2
 
 // var gender = prompt("Enter your Gender:" , "Male/Female")
 // gender = gender.toLowerCase()
@@ -376,7 +377,7 @@
 //     document.write("Good Morning!")
 // }
 
-//Question 3
+//Task # 3
 
 // var color = prompt("Enter color: ", "red")
 // color = color.toLowerCase()
@@ -390,14 +391,14 @@
 //     document.write("Please enter color like Red,Yelleo and Green")
 // }
 
-//Question 4
+//Task # 4
 
 // var remainingfule =prompt("Enter current fule","0.25liters")
 // if (remainingfule <= "0.25liters"){
 //     document.write("Please refill the fule in  your car")
 // }
 
-//Question 5
+//Task # 5
 
 // var a = 4
 // if (++a === 5){
@@ -435,7 +436,7 @@
 //     alert("car is smaller than cat") 
 // } 
 
-// Question 6
+// Task # 6
 
 // var total =parseInt( prompt("Enter total marks of all three subjects"))
 // var marks1 =parseInt( prompt("Enter obtained marks of subject1: " ))
@@ -455,7 +456,7 @@
 //     document.write("Grade: Faile <br> Remarks:Sorry")
 // }
 
-//Question 7
+//Task # 7
 
 // var secrectnumber = 4
 // var guessnumber = parseInt( prompt("Guess the secrect number from 1 to 10"))
@@ -467,9 +468,26 @@
 //     document.write("Better Luck next time")
 // }
 
-//Question 8
-//Question 9
- //Question 10
+//Task # 8
+
+// var number = parseInt(prompt("Enter number: ", "12"))
+// if (number % 3 === 0){
+//     document.write(number + " is divisible by 3.")
+// }else {
+//     document.write(number + " is not divisible by 3")
+// }
+
+
+//Task # 9
+
+// var number = parseInt(prompt("Enter number: ", "12"))
+// if (number % 2 === 0){
+//     document.write(number + " is even number.")
+// }else {
+//     document.write(number + " is odd number")
+// }
+
+//Task # 10
 
 // var tempreture = parseInt(prompt("Enter today's tempreture"))
 // if (tempreture > 40){
@@ -482,7 +500,132 @@
 //     document.write("OMG! Today’s weather is so Cool.")
 // }
 
-// //Question 11
+//Task # 11
 
 // var firstnumber = parseInt(prompt("Enter first number"))
+// var operator =prompt("Enter Operator (+, -, *, /, %)", "+")
 // var secondnumber =parseInt(prompt("Enter second number"))
+// if (operator === "+") {
+//     document.write(firstnumber + secondnumber)
+// }else if (operator === "-") {
+//     document.write(firstnumber - secondnumber)
+// }else if (operator === "*") {
+//     document.write(firstnumber * secondnumber)
+// }else if (operator === "/") {
+//     document.write(firstnumber / secondnumber)
+// }else if (operator === "%") {
+//     document.write(firstnumber % secondnumber)
+// }else{
+//     document.write("Invalid Operator.")
+// }
+
+// ----- CHAPTER # 12-13 -----
+
+// Task # 1
+
+// var input = prompt("Enter single character");
+
+// var asciiValue = input.charCodeAt(0);
+// if (asciiValue >= 48 && asciiValue <= 57) {
+//     document.write(`<h1>${input} is a number</h1>`);
+// }
+// else if (asciiValue >= 65 && asciiValue <= 90) {
+//     document.write(`<h1>${input} is an upper case letter</h1>`);
+// }
+// else if (asciiValue >= 97 && asciiValue <= 122) {
+//     document.write(`<h1>${input} is a lower case letter</h1>`);
+// }        
+
+// Task # 2
+
+// var a = parseInt(prompt("Enter first number"))
+// var b = parseInt(prompt("Enter second number"))
+// if (a> b) {
+//     document.write(a+ " is greater than "+ b)
+// }else if (a< b) {
+//     document.write(b+ " is greater than "+ a)
+// }else{
+//     document.write("Both numbers are equal.")
+// }
+
+// Task # 3
+
+// var number = parseInt(prompt("Enter a number"))
+// if (number > 0) {
+//     document.write("You enter a positive number.")
+// }else if (number < 0) {
+//     document.write("You enter a negative number")
+// }else{
+//     document.write("Number is Zero")
+// }
+
+// Task # 4
+
+// var char = prompt("Enter a Character: ")
+// char = char.toUpperCase()
+// if (char === "A" || char=== "E" || char === "I" || char === "O" || char === "U"){
+//     document.write("True")
+// }else{
+//     document.write("False")
+// }
+
+// Task # 5
+
+// var pswd = "AASMA-KANWAL"
+// var userpswd = prompt("Enter password:" , )
+// if (userpswd === "") {
+//     document.write("Please enter your password:")
+// }else if (userpswd === pswd) {
+//     document.write("Correct!")
+// }else{
+//     document.write("Incorrect password!")
+// }
+
+
+// Task # 6
+
+// var greeting;
+// var hour = 19
+// if (hour < 18) { 
+//     greeting = "Good day"; 
+//  }else {
+//      greeting = "Good evening";
+//  }
+//  document.write(greeting)
+
+// Task # 7
+
+// var time =parseInt(prompt("Enter time:"))
+// if (time >= 0000 && time <1200) {
+//     document.write("Good morning!")
+// }else if (time >=1200 && time < 1700) {
+//     document.write("Good Afternoon!")
+// }else if (time >=1700 && time < 2100) {
+//     document.write("Good Evening!")
+// }else if (time >=2100 && time <= 2359) {
+//     document.write(firstnumber % secondnumber)
+// }else{
+//     document.write("Enter correct time")
+// }
+
+
+// ----- CHAPTER # 14-16 -----
+
+// Task # 1
+
+
+
+// Task # 2
+// Task # 3
+// Task # 4
+// Task # 5
+// Task # 6
+// Task # 7
+// Task # 8
+// Task # 9
+// Task # 10
+// Task # 11
+// Task # 12
+// Task # 13
+// Task # 14
+// Task # 15
