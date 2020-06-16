@@ -611,21 +611,316 @@
 
 // ----- CHAPTER # 14-16 -----
 
-// Task # 1
+// Task 1
+
+// var studentName = []
+
+// Task 2
+
+// var studentName = new Array()
+
+// Task 3
+
+// var Animals = ["Cat", "Dog", "Elephant", "Bat" , "Lion", "Tiger"]
+
+// Task 4
+
+// var num = [53, 87, 98, 543, 876, 26,36]
+
+// Task 5
+
+// var boolean = [true, false]
+
+// Task 6
+
+// var mixArray = ["Cat", "Dog", 87, 98, 54.3, true, false]
+
+// Task 7
+
+// var education = [ "SSC", "HSC", "BCS", "BS", "BCOM", "MS", "M.Phil.", "PhD"]
+
+// document.write("<h1>Qualifications:</h1>")
+
+// for (i = 0 ; i < education.length ; i++ ){
+//     document.write("<b>" + (i+1) + ") " +education[i] +"<br></b>")
+// }
+
+// Task 8
+
+// var Names = ["Aasma", "Atifa", "M.Saad"]
+// var Marks = [400, 450, 250]
+// var totalMarks = 500
+// for (i = 0; i < Names.length ; i++) {
+//     document.write("Score of "+ Names[i]+ " is " + Marks[i]+ ". Percentage" +(Marks[i]*100/totalMarks)+"%<br>")
+// }
+
+
+// Task 9
+
+
+// var colors = ["Red", "Blue", "Green", "Yellow", "Black"];
+
+// function capitalisedString(string){
+//     var firstLetter= string[0].toUpperCase() ;
+//     var otherLetters = string.slice(1).toLowerCase();
+//     updatedString = firstLetter+otherLetters;
+//     return updatedString;
+// }
+
+// document.write("<h2>Colors: </h2>")
+// for (i = 0 ; i < colors.length ; i++ ){
+//     document.write("<b> " +colors[i] +", </b>")
+// }
+
+// var updated = prompt("Enter color to add in the begining:");
+// updated = capitalisedString(updated);
+// colors.unshift(updated);
+// document.write("<h2>Color Added In Begining: </h2>")
+// for (i = 0 ; i < colors.length ; i++ ){
+//     document.write("<b> " +colors[i] +", </b>")
+// }
+
+
+// var updated = prompt("Enter color to add in the End:");
+// updated = capitalisedString(updated);
+// colors.push(updated);
+// document.write("<h2>Color Added In End: </h2>")
+// for (i = 0 ; i < colors.length ; i++ ){
+//     document.write("<b> " +colors[i] +", </b>")
+// }
+
+// colors.unshift("Orange", "violet");
+// document.write("<h2>Two More Colors Added In The Begining: </h2>")
+// for (i = 0 ; i < colors.length ; i++ ){
+//     document.write("<b> " +colors[i] +", </b>")
+// }
 
 
 
-// Task # 2
-// Task # 3
-// Task # 4
-// Task # 5
-// Task # 6
-// Task # 7
-// Task # 8
-// Task # 9
-// Task # 10
-// Task # 11
-// Task # 12
-// Task # 13
-// Task # 14
-// Task # 15
+// colors.shift();
+// document.write("<h2>First Color Deleted: </h2>")
+// for (i = 0 ; i < colors.length ; i++ ){
+//     document.write("<b> " +colors[i] +", </b>")
+// }
+
+
+// colors.pop();
+// document.write("<h2>Last Color Deleted: </h2>")
+// for (i = 0 ; i < colors.length ; i++ ){
+//     document.write("<b> " +colors[i] +", </b>")
+// }
+
+
+
+// var index = parseInt(prompt("Enter index of the Color you want to delete"));
+// updated = prompt(`Enter color you want to insert at index ${index}`);
+// updated = capitalisedString(updated);
+// colors.splice(index, 0, updated);
+// document.write("<h2>Color Inserted At Index "+index+ ": </h2>")
+// for (i = 0 ; i < colors.length ; i++ ){
+//     document.write("<b> " +colors[i] +", </b>")
+// }
+
+
+
+// var index = parseInt(prompt("Enter index to delete color"));
+// var deleteCount = parseInt(prompt(`Enter number (1 to ${colors.length}) of colors to delete`));
+
+// colors.splice(index, deleteCount);
+// document.write("<h2>Colors After Deleted:</h2>")
+// for (i = 0 ; i < colors.length ; i++ ){
+//     document.write("<b> " +colors[i] +", </b>")
+// }
+
+// Task 10
+
+// var studentScore = [440, 767, 320, 241, 325]
+// document.write("<b>Score of Students: </b>")
+// for (i = 0 ; i < studentScore.length ; i++ ){
+//     document.write("<b> " +studentScore[i] +" , </b>")
+// }
+// studentScore.sort()
+
+// document.write("<br><b>Ordered Score of Students: </b>")
+// for (i = 0 ; i < studentScore.length ; i++ ){
+//     document.write("<b> " +studentScore[i] +" , </b>")
+// }
+
+// Task 11
+
+// var cities = ["Karachi", "Islamabad","Sukkur","Lahore","Faislabad"]
+// var selectedCities = cities.slice(1,3)
+// document.write("<br>Cities List: <br>"+cities)
+// document.write("<br>Selected Cities List: <br>"+selectedCities)
+
+// Task 12
+
+// var array = ["This" ,  "is" ,  "my" ,  "cat"];
+// var joined = array.join(" ")
+// document.write("Array:<br>"+array +"<br>")
+// document.write("String:<br>"+joined)
+
+// Task 13
+
+// var pc = []
+// pc.push("Keyboard");
+// pc.push("Mouse");
+// pc.push("Printer");
+// pc.push("Monitor");
+// document.write("Devices:<br>"+pc+"<br>")
+// var out = pc.shift()
+// document.write("Out: <br>"+out+"<br>")
+// var out = pc.shift()
+// document.write("Out: <br>"+out+"<br>")
+// var out = pc.shift()
+// document.write("Out: <br>"+out+"<br>")
+// var out = pc.shift()
+// document.write("Out: <br>"+out+"<br>")
+
+// Task 14
+
+// var pc = []
+// pc.push("Keyboard");
+// pc.push("Mouse");
+// pc.push("Printer");
+// pc.push("Monitor");
+// document.write("Devices:<br>"+pc+"<br>")
+// var out = pc.pop()
+// document.write("Out: <br>"+out+"<br>")
+// var out = pc.pop()
+// document.write("Out: <br>"+out+"<br>")
+// var out = pc.pop()
+// document.write("Out: <br>"+out+"<br>")
+// var out = pc.pop()
+// document.write("Out: <br>"+out+"<br>")
+
+// Task 15
+
+// var phone = ["Apple", "Samsung", "Motorola", "Nokia", "Sony" , "Haier"]
+// document.write("<label>Manufacturers:</label>")
+//         document.write("<select name='manufacturer'>")
+//         document.write("<option value="+phone[0].toLowerCase()+ ">" +phone[0] + "</option>")
+//         document.write("<option value="+phone[1].toLowerCase()+ ">" +phone[1] + "</option>")
+//         document.write("<option value="+phone[2].toLowerCase()+ ">" +phone[2] + "</option>")
+//         document.write("<option value="+phone[3].toLowerCase()+ ">" +phone[3] + "</option>")
+//         document.write("<option value="+phone[4].toLowerCase()+ ">" +phone[4] + "</option>")
+//         document.write("<option value="+phone[5].toLowerCase()+ ">" +phone[5] + "</option>")
+//         document.write("</select>")
+
+
+// ----- CHAPTER # 17-20 -----
+// Task 1
+
+// var emptyarr = [[] , []]
+
+// Task 2
+
+// var matrixarr = [
+//     [0, 1, 2, 3],
+//     [1, 0, 1, 2],
+//     [2, 1, 0, 1]
+// ]
+// document.write(matrixarr)
+
+// Task 3
+
+// for (i = 1; i <= 10 ; i++){
+//     document.write(i+ "<br>")
+// }
+
+// Task 4
+
+// var table = parseInt(prompt("Enter a number to show its multiplication table:"))
+// var len = parseInt(prompt("Enter length of multiplication table:"))
+// for(i = 1; i <= len ; i++) {
+//     document.write(table + " x " + i + " = " + (table * i) + "<br>")
+// }
+
+// Task 5
+
+// var fruit = ["apple", "banana", "mango", "orange", "strawberry"]
+// for (i = 0 ; i < fruit.length; i++){
+//     document.write( fruit[i] +"<br>")
+// }
+// document.write("<br>Element at index 0 is " +fruit[0]+"<br>")
+// document.write("Element at index 1 is " +fruit[1]+"<br>")
+// document.write("Element at index 2 is " +fruit[2]+"<br>")
+// document.write("Element at index 3 is " +fruit[3]+"<br>")
+// document.write("Element at index 4 is " +fruit[4]+"<br>")
+
+// Task 6
+// document.write("<b>Counting:</b> <br>")
+// for (i = 1; i <= 15 ; i++){
+//     document.write( i +" ")
+// }
+// document.write("<br><b>Revers Counting:</b><br> ")
+// for (i = 10; i >= 1 ; i--){
+//     document.write( i +" ")
+// }
+
+// var even =[]
+// var odd = []
+// var series = []
+// // document.write("<br><b>Even:</b><br> ")
+// for (i = 0; i <= 20 ; i++){
+//     if(i % 2 == 0){
+//         even.push(i)
+//         if (i > 0){
+//             series.push(i+"k")
+
+//         }
+//     }else{
+//         odd.push(i)
+//     }
+// }
+// document.write("<br><b>Even: </b><br>"+even)
+// document.write("<br><b>Odd: </b><br>"+odd)
+// document.write("<br><b>Series: </b><br>"+series)
+
+// Task 7
+
+// var A =["cake", "apple pie", "cookies", "chips", "patties"]
+// var food = prompt("Welcom to ABC Bakery.What do you want to order sir/ma'am")
+// var flag = false
+// for (i= 0; i < food.length; i++){
+//     if (A[i] === food){
+//         document.write(food+" is available at index " + i)
+//         flag = true
+//         break   
+//     }
+// }
+// if (flag == false){
+//     document.write("We are sorry "+food+" is not available at our bakery")
+// }
+// Task 8
+
+// var array = [24, 53, 78, 91, 12];
+
+// var max = array[0];
+
+// for (i=0 ; i < array.length ; i++) {
+//     if (array[i] > max) {
+//         max = array[i];
+//     }
+// }
+
+// document.write("<h2>The largest number is " +max+ "</h2>");
+
+// Task 9
+
+// var array = [24, 53, 78, 91, 12];
+
+// var min = array[0];
+
+// for (i=0 ; i < array.length ; i++) {
+//     if (array[i] < min) {
+//         min = array[i];
+//     }
+// }
+// document.write("<h2>The smallest number is " +min+ "</h2>");
+
+// Task 10
+
+// for (i = 5; i < 101; i = i+5) {
+//     document.write(i+", ")
+// } 
